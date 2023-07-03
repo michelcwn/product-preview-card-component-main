@@ -1,0 +1,27 @@
+.heading-L {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.button-text {
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: auto;
+    color: $color-white;
+}
+
+.overline {
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: auto;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    color: $color-metal;
+}
+
+.paragraph-style {
+    font-size: 1.4rem;
+    color: $color-metal;
+    line-height: 23px;
+}

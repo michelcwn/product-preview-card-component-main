@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f2eae2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.heading-L {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 32px; }
+
+.button-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: auto;
+  color: #ffffff; }
+
+.overline {
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: auto;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  color: #6c7289; }
+
+.paragraph-style {
+  font-size: 1.4rem;
+  color: #6c7289;
+  line-height: 23px; }
+
+.container {
+  display: flex;
+  width: 50vw;
+  height: auto;
+  border-radius: 1.5rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); }
+  @media only screen and (min-width: 93.75em) {
+    .container {
+      width: 40vw; } }
+  @media only screen and (max-width: 62.5em) {
+    .container {
+      width: 60vw; } }
+  @media only screen and (max-width: 56.25em) {
+    .container {
+      width: 75vw; } }
+  @media only screen and (max-width: 43.75em) {
+    .container {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      margin: 5rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .container {
+      margin: 2rem; } }
+
+picture {
+  width: 50%; }
+  @media only screen and (max-width: 43.75em) {
+    picture {
+      width: 100%;
+      height: auto; } }
+  picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem; }
+    @media only screen and (max-width: 43.75em) {
+      picture img {
+        border-radius: 1.5rem 1.5rem 0 0; } }
+
+.perfume {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3rem 4rem;
+  background-color: #ffffff;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem; }
+  @media only screen and (max-width: 62.5em) {
+    .perfume {
+      padding: 2rem 3rem; } }
+  @media only screen and (max-width: 43.75em) {
+    .perfume {
+      width: 100%;
+      border-radius: 0 0 1.5rem 1.5rem; } }
+  .perfume__heading-1 {
+    padding-right: 2rem; }
+    @media only screen and (max-width: 56.25em) {
+      .perfume__heading-1 {
+        padding: 0; } }
+    @media only screen and (max-width: 43.75em) {
+      .perfume__heading-1 {
+        margin-bottom: 3rem; } }
+  @media only screen and (max-width: 43.75em) {
+    .perfume__heading-2 {
+      margin-bottom: 3rem; } }
+  @media only screen and (max-width: 43.75em) {
+    .perfume__heading-2 {
+      margin-top: 3rem; } }
+  @media only screen and (max-width: 43.75em) {
+    .perfume__text {
+      margin-bottom: 3rem; } }
+  .perfume__price {
+    display: flex;
+    align-items: center; }
+    @media only screen and (max-width: 43.75em) {
+      .perfume__price {
+        margin-bottom: 3rem; } }
+    .perfume__price--green {
+      color: #3d8168; }
+    .perfume__price--discounted {
+      color: #6c7289;
+      font-size: 1.4rem;
+      margin-left: 2rem;
+      text-decoration: line-through; }
+  .perfume__btn {
+    background-color: #3d8168;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    height: 4.5rem;
+    width: 100%;
+    border: none;
+    padding: 0;
+    border-radius: 1rem;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s; }
+    .perfume__btn:hover {
+      background-color: #1a4032;
+      transform: translateY(-3px);
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); }
+    .perfume__btn--cart {
+      margin-right: 1rem; }
+
+/*# sourceMappingURL=main.css.map */
